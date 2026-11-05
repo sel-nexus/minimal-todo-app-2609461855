@@ -1,0 +1,12 @@
+{
+  "name": "minimal-todo-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test-only Playwright setup for the dependency-free todo fixture.",
+  "scripts": {
+    "test": "node node_modules/@playwright/test/cli.js test --config playwright.config.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.52.0"
+  }
+}
